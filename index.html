@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Player : Music for everyone</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <script type="module" src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container bg-black flex">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="images/close.svg" alt="close">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo">
+                    <span class="emoji"><img class="invert" width="33" src="images/logo.png" alt="logo">Music
+                        Wave.....</span>
+                </div>
+
+                <ul>
+                    <li> <img class="invert" src="images/home.svg" alt="home">Home</li>
+                    <li> <img class="invert" src="images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="images/playlist.svg" alt="playlist">
+                    <h2> Your Library</h2>
+                </div>
+                <div class="songList">
+                    <ul></ul>
+                </div>
+
+                <div class="footer">
+                    <p>Crafted with ❤️ by Susmita Patil 👩‍💻</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40" class="hamburger invert" src="images/hamburger.svg" alt="hamburger">
+                        <svg class="w-[17px] h-[17px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m15 19-7-7 7-7" />
+                        </svg>
+
+                        <svg class="w-[17px] h-[17px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m9 5 7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn" data-title="UI design only">Sign-up</button>
+                    <button class="loginbtn" data-title="UI design only">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h2>Spotify Playlists</h2>
+                <div class="cardContainer cover"></div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img id="previous" src="images/prevsong.svg" alt="prevsong">
+                            <img id="play" src="images/play.svg" alt="play">
+                            <img id="next" src="images/nextsong.svg" alt="nextsong">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img id="volumeIcon" width="25" class="invert" src="images/volume.svg"
+                                    alt="volume">
+                                <img id="muteIcon" width="25" class="invert" src="images/mute.svg" alt="mute">
+                                <div class="range">
+                                    <input type="range" id="vol" min="0" max="100" value="50">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
