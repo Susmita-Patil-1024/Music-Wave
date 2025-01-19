@@ -30,10 +30,3 @@
 - **JavaScript** 💡: For dynamic features like music playback, volume control, and interaction with the user interface.
 
 ---
-
-## Experience the Beat 🎧💥
-
-Check out the live demo of **Music Wave** here:  
-[Music Wave Demo](https://your-deployed-project-link.com)
-
----
